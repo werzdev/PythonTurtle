@@ -47,11 +47,84 @@ Now you can use the Functions above to begin drawing.
 Exercises:
 
 1. Draw a square 
+---
+![Square](pic/PTurtleSquare.png)
+```python
+import turtle
+
+screen = turtle.Screen()
+screen.bgcolor("light green")
+screen.title("Turtle")
+
+t = turtle.Turtle()
+t.speed(5)
+
+for i in range(4)
+  t.fd(100)
+  t.left(90)
+```
 
 2. Draw an equilateral triangle
+---
+![Square](pic/PTurtleTriangle.png)
+```python
+import turtle
+
+screen = turtle.Screen()
+screen.bgcolor("light green")
+screen.title("Turtle")
+
+t = turtle.Turtle()
+t.speed(5)
+
+for i in range(3)
+  t.fd(100)
+  t.left(120)
+```
 
 3. Draw three concentric circles
+---
+![Square](pic/PTurtleConCircle.png)
+```python
+import turtle
+
+screen = turtle.Screen()
+screen.bgcolor("light green")
+screen.title("Turtle")
+
+t = turtle.Turtle()
+t.speed(5)
+
+def pos():
+  t.penup()
+  t.right(90)
+  t.fd(50)
+  t.left(90)
+  t.pendown()
+
+for i in range(3):
+  t.circle(50 * i)
+  pos()
+```
+
 
 4. Draw a spiral
-
+---
 5. Draw a star
+---
+![Square](pic/PTurtleStar.png)
+```python
+import turtle
+
+screen = turtle.Screen()
+screen.bgcolor("light green")
+screen.title("Turtle")
+
+t = turtle.Turtle()
+t.speed(5)
+
+for i in range(4)
+  t.fd(100)
+  t.left(90)
+```
+
