@@ -16,7 +16,7 @@ dummy.setpos(-WIDTH // 6, HEIGHT // 6)
 dummy.color('red')
 
 # l-system settings
-gens = 5
+gens = 12
 axiom = 'F++F++F'
 chr_1, rule_1 = 'F', 'F-F++F-F'
 step = 600

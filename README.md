@@ -29,7 +29,7 @@ To make use of the turtle methods and functionalities, we need to import turtle.
 If you dont have a CodeEditor or IDE available this might be a good alternative: https://www.pythonsandbox.com/turtle
 After importing the turtle library and making all the turtle functionalities available to us, we need to create a new drawing board(window) and a turtle. Let’s call the window as screen and the turtle as t. 
 You dont need the window if you use the website.
-So we code as:
+So the code will look somthing like this:
 ```python
 import turtle
 
@@ -43,11 +43,11 @@ t.speed(5)
 
 Now you can use the Functions above to begin drawing.
 
-
+---
 Exercises:
 
-1. Draw a square 
----
+**1. Draw a square** 
+
 ![Square](pic/PTurtleSquare.png)
 ```python
 import turtle
@@ -59,13 +59,13 @@ screen.title("Turtle")
 t = turtle.Turtle()
 t.speed(5)
 
-for i in range(4)
+for i in range(4):
   t.fd(100)
   t.left(90)
 ```
-
-2. Draw an equilateral triangle
 ---
+**2. Draw an equilateral triangle**
+
 ![Square](pic/PTurtleTriangle.png)
 ```python
 import turtle
@@ -77,13 +77,13 @@ screen.title("Turtle")
 t = turtle.Turtle()
 t.speed(5)
 
-for i in range(3)
+for i in range(3):
   t.fd(100)
   t.left(120)
 ```
-
-3. Draw three concentric circles
 ---
+**3. Draw three concentric circles**
+
 ![Square](pic/PTurtleConCircle.png)
 ```python
 import turtle
@@ -107,11 +107,12 @@ for i in range(3):
   pos()
 ```
 
+---
+**4. Draw a spiral**
 
-4. Draw a spiral
 ---
-5. Draw a star
----
+**5. Draw a star**
+
 ![Square](pic/PTurtleStar.png)
 ```python
 import turtle
@@ -123,7 +124,7 @@ screen.title("Turtle")
 t = turtle.Turtle()
 t.speed(5)
 
-for i in range(4)
+for i in range(4):
   t.fd(100)
   t.left(90)
 ```
